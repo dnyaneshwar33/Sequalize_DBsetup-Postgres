@@ -1,7 +1,7 @@
 
 import pool from './pgConfig';
 
-//Assignment -1
+//Assignment -2-Tasks
 async function createTableIfNotExists(): Promise<void> {
     try {
         const client = await pool.connect();
